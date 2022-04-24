@@ -15,23 +15,21 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/virtual-avatar/backtrace"
+        }
+    ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^7.1",
         "ext-curl": "*",
         "ext-json": "*",
         "ramsey/uuid": "^3.0|^4.1",
-        "spatie/backtrace": "^1.1",
         "spatie/macroable": "^1.0|^2.0",
+        "virtual-avatar/backtrace": "^1.0",
         "symfony/stopwatch": "^4.0|^5.1|^6.0",
         "symfony/var-dumper": "^4.2|^5.1|^6.0"
-    },
-    "require-dev": {
-        "illuminate/support": "6.x|^8.18|^9.0",
-        "nesbot/carbon": "^2.43",
-        "phpstan/phpstan": "^0.12.92",
-        "phpunit/phpunit": "^9.5",
-        "spatie/phpunit-snapshot-assertions": "^4.2",
-        "spatie/test-time": "^1.2"
     },
     "autoload": {
         "psr-4": {
