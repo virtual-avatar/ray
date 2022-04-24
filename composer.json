@@ -1,8 +1,8 @@
 {
-    "name": "virtual-avatar/ray",
+    "name": "spatie/ray",
     "description": "Debug with Ray to fix problems faster",
     "keywords": [
-        "virtual-avatar",
+        "spatie",
         "ray"
     ],
     "homepage": "https://github.com/spatie/ray",
